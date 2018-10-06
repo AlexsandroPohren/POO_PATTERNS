@@ -16,6 +16,5 @@ public class Icms extends Imposto{
 		this.Imposto = this.Imposto + valorFrete;
 		
 	}
-	
 
 }
