@@ -7,9 +7,9 @@ public class Tester {
 	
 		CarroFactory cf = new CarroFactory();
 		
-		DepartamentoDeRH rh = new DepartamentoDeRH(cf);
+		Locadora loca = new Locadora(cf);
 		
-		ICarro novo = rh.contratar("SUV");
+		ICarro novo = loca.alugar("SUV");
 		
 		System.out.println(novo.getCargo());
 		
